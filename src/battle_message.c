@@ -4100,6 +4100,11 @@ static const struct TrainerSlide sTrainerSlides[] =
         .msgDynamax = sText_TargetWokeUp,
     },
     */
+   {
+    .trainerId = TRAINER_ROXANNE_1,
+    .isFrontierTrainer = FALSE,
+    .msgLastSwitchIn = sText_CreptCloser,
+   }
 };
 
 static u32 GetEnemyMonCount(u32 firstId, u32 lastId, bool32 onlyAlive)
