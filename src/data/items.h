@@ -14090,8 +14090,8 @@ const struct Item gItemsInfo[] =
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Surfboard,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
+        .iconPic = gItemIcon_Surfboard,
+        .iconPalette = gItemIconPalette_Surfboard,
     },
 
     [ITEM_HATCHET] =
@@ -14099,15 +14099,15 @@ const struct Item gItemsInfo[] =
         .name = _("Hatchet"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "A small hatchet\n"
-            "that can cut\n"
-            "down small trees."),
+            "An axe suitable\n"
+            "for cutting down\n"
+            "small trees."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Hatchet,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
+        .iconPic = gItemIcon_Hatchet,
+        .iconPalette = gItemIconPalette_Hatchet,
     },
 
     [ITEM_HAMMER] =
@@ -14115,15 +14115,15 @@ const struct Item gItemsInfo[] =
         .name = _("Hammer"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "A hammer that\n"
-            "is able to\n"
-            "smash rocks."),
+            "A handy tool\n"
+            "that is able to\n"
+            "smash small rocks."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Hammer,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
+        .iconPic = gItemIcon_Hammer,
+        .iconPalette = gItemIconPalette_Hammer,
     },
 
     [ITEM_DIVING_SUIT] =
@@ -14131,15 +14131,15 @@ const struct Item gItemsInfo[] =
         .name = _("Diving Suit"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "An airtight\n"
-            "suit used for\n"
-            "deepsea dives."),
+            "An airtight suit\n"
+            "used for deepsea\n"
+            "exploration."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_DivingSuit,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
+        .iconPic = gItemIcon_DivingSuit,
+        .iconPalette = gItemIconPalette_DivingSuit,
     },
 
     [ITEM_LANTERN] =
@@ -14147,15 +14147,15 @@ const struct Item gItemsInfo[] =
         .name = _("Lantern"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "Able to light\n"
-            "the darkest\n"
-            "of locations."),
+            "Able to light up\n"
+            "even the darkest\n"
+            "of surroundings."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_Lantern,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
+        .iconPic = gItemIcon_Lantern,
+        .iconPalette = gItemIconPalette_Lantern,
     },
 
     [ITEM_POWER_GLOVE] =
@@ -14163,14 +14163,14 @@ const struct Item gItemsInfo[] =
         .name = _("Power Glove"),
         .price = 0,
         .description = COMPOUND_STRING(
-            "Channels power\n"
+            "Enhances strength\n"
             "to allow for\n"
             "moving boulders."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_FIELD,
         .fieldUseFunc = ItemUseOutOfBattle_PowerGlove,
-        .iconPic = gItemIcon_QuestionMark,
-        .iconPalette = gItemIconPalette_QuestionMark,
+        .iconPic = gItemIcon_PowerGlove,
+        .iconPalette = gItemIconPalette_PowerGlove,
     },
 };

@@ -2096,3 +2096,21 @@ const u32 gItemIconPalette_SwapSnack[] = INCBIN_U32("graphics/items/icon_palette
 
 const u32 gItemIcon_TwiceSpicedRadish[] = INCBIN_U32("graphics/items/icons/twice_spiced_radish.4bpp.lz");
 const u32 gItemIconPalette_TwiceSpicedRadish[] = INCBIN_U32("graphics/items/icon_palettes/twice_spiced_radish.gbapal.lz");
+
+const u32 gItemIcon_Hammer[] = INCBIN_U32("graphics/items/icons/hammer.4bpp.lz");
+const u32 gItemIconPalette_Hammer[] = INCBIN_U32("graphics/items/icon_palettes/hammer.gbapal.lz");
+
+const u32 gItemIcon_Hatchet[] = INCBIN_U32("graphics/items/icons/hatchet.4bpp.lz");
+const u32 gItemIconPalette_Hatchet[] = INCBIN_U32("graphics/items/icon_palettes/hatchet.gbapal.lz");
+
+const u32 gItemIcon_Lantern[] = INCBIN_U32("graphics/items/icons/lantern.4bpp.lz");
+const u32 gItemIconPalette_Lantern[] = INCBIN_U32("graphics/items/icon_palettes/lantern.gbapal.lz");
+
+const u32 gItemIcon_PowerGlove[] = INCBIN_U32("graphics/items/icons/power_glove.4bpp.lz");
+const u32 gItemIconPalette_PowerGlove[] = INCBIN_U32("graphics/items/icon_palettes/power_glove.gbapal.lz");
+
+const u32 gItemIcon_DivingSuit[] = INCBIN_U32("graphics/items/icons/diving_suit.4bpp.lz");
+const u32 gItemIconPalette_DivingSuit[] = INCBIN_U32("graphics/items/icon_palettes/diving_suit.gbapal.lz");
+
+const u32 gItemIcon_Surfboard[] = INCBIN_U32("graphics/items/icons/surfboard.4bpp.lz");
+const u32 gItemIconPalette_Surfboard[] = INCBIN_U32("graphics/items/icon_palettes/surfboard.gbapal.lz");
