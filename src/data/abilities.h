@@ -495,7 +495,7 @@ const struct Ability gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_OVERGROW] =
     {
         .name = _("Overgrow"),
-        .description = COMPOUND_STRING("Ups Grass moves in a pinch."),
+        .description = COMPOUND_STRING("Ups Grass moves in a pinch.\nWhat a great descriptor."),
         .aiRating = 5,
     },
 
