@@ -210,9 +210,9 @@ static const struct MenuAction MultichoiceList_Mechadoll5_Q3[] =
 
 static const struct MenuAction MultichoiceList_VendingMachine[] =
 {
-    {COMPOUND_STRING("FRESH WATER{CLEAR_TO 0x48}¥200")},
-    {COMPOUND_STRING("SODA POP{CLEAR_TO 0x48}¥300")},
-    {COMPOUND_STRING("LEMONADE{CLEAR_TO 0x48}¥350")},
+    {COMPOUND_STRING("Fresh Water{CLEAR_TO 0x48}¥200")},
+    {COMPOUND_STRING("Soda Pop{CLEAR_TO 0x48}¥300")},
+    {COMPOUND_STRING("Lemonade{CLEAR_TO 0x48}¥350")},
     {gText_Exit},
 };
 
@@ -608,7 +608,7 @@ static const struct MenuAction MultichoiceList_Fossil[] =
 static const struct MenuAction MultichoiceList_YesNo[] =
 {
     {gText_Yes},
-    {COMPOUND_STRING("NO")},
+    {COMPOUND_STRING("No")},
 };
 
 static const struct MenuAction MultichoiceList_FrontierRules[] =
@@ -773,8 +773,8 @@ static const struct MenuAction MultichoiceList_TagMatchType[] =
 
 static const struct MenuAction MultichoiceList_BerryPlot[] =
 {
-    {COMPOUND_STRING("FERTILIZE")},
-    {COMPOUND_STRING("PLANT BERRY")},
+    {COMPOUND_STRING("Fertilize")},
+    {COMPOUND_STRING("Plant Berry")},
     {gText_Exit},
 };
 
