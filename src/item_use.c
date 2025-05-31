@@ -1494,7 +1494,7 @@ void ItemUseOutOfBattle_CannotUse(u8 taskId)
 
 void ItemUseOutOfBattle_Surfboard(u8 taskId)
 {
-    if (IsPlayerFacingSurfableFishableWater())
+    if (IsPlayerFacingSurfableFishableWater() == TRUE && CheckFollowerNPCFlag(FOLLOWER_NPC_FLAG_CAN_SURF))
     {
         sItemUseOnFieldCB = ItemUseOnFieldCB_Surfboard;
         SetUpItemUseOnFieldCallback(taskId);
@@ -1548,12 +1548,12 @@ static void ItemUseOnFieldCB_Hammer(u8 taskId)
 
 void ItemUseOutOfBattle_DivingSuit(u8 taskId)
 {
-    if (TrySetDiveWarp() == 2)
+    if (TrySetDiveWarp() == 2 && CheckFollowerNPCFlag(FOLLOWER_NPC_FLAG_CAN_DIVE))
     {
         sItemUseOnFieldCB = ItemUseOnFieldCB_DivingSuitAboveWater;
         SetUpItemUseOnFieldCallback(taskId);
     }
-    else if (gMapHeader.mapType == MAP_TYPE_UNDERWATER && TrySetDiveWarp() == 1)
+    else if (gMapHeader.mapType == MAP_TYPE_UNDERWATER && TrySetDiveWarp() == 1 && CheckFollowerNPCFlag(FOLLOWER_NPC_FLAG_CAN_DIVE))
 	{
 		sItemUseOnFieldCB = ItemUseOnFieldCB_DivingSuitUnderwater;
         SetUpItemUseOnFieldCallback(taskId);
